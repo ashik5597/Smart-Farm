@@ -1,0 +1,15 @@
+.profile_img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px dashed coral;
+}
+
+.content {
+  font-family: "Roboto";
+}
+
+.cow_profile_img {
+  border-radius: 15px;
+  border: 2px dashed coral;
+}

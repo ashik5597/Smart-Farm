@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap");
+
+* {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+
+.wrapper {
+  background-color: black;
+  background-image: url("/assets/images/hero-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigationWrapper {
+  padding: 10px 0px;
+  background-color: rgb(4, 5, 32) !important;
+  color: white !important;
+}
+
+.brandName {
+  font-family: "Poppins";
+}
+
+.hero-text {
+  font-family: "Playpen Sans", cursive;
+
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+}
+.hero-text span {
+  background-color: blueviolet;
+  padding: 5px 20px;
+}
+.login-btn {
+  background-color: rgba(137, 43, 226, 0.658);
+  color: white;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+.login-btn:hover {
+  border: 1px solid white;
+}
+.login-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.about-wrapper {
+  background-color: rgb(234, 245, 255);
+  padding: 2vh;
+  min-height: 100vh;
+}
+.text-about {
+  text-align: justify;
+  font-family: "Roboto";
+}
+.about-container {
+  margin-top: 20vh;
+}
+
+.footer {
+  min-height: 40vh;
+  background-color: rgb(4, 5, 32);
+  color: whitesmoke;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/dashboard.css" />
+    <link rel="stylesheet" href="/assets/css/addCow.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body class="myBody">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navigationWrapper navigation_container"
+    >
+      <div class="container">
+        <p class="navbar-brand brandName fs-3 fw-bold text-white">SFarms</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/assets/pages/dashboard.html"
+                >Dashboard</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/assets/pages/cowList.html"
+                >All Cattle</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/assets/pages/addCow.html"
+                >Register Cattle</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="/assets/pages/profile.html"
+                >Profile</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container mt-5">
+        <h1 class="text-center mb-4">Cattle Registration Form</h1>
+        <div class="d-flex justify-content-center">
+          <form class="form_wrapper" id="cowRegistrationForm">
+            <div class="form-group">
+              <label for="name">#ID</label>
+              <input
+                type="text"
+                class="form-control"
+                id="id"
+                placeholder="Enter cow's Id"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input
+                type="number"
+                class="form-control"
+                id="age"
+                placeholder="Enter cow's age"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="color">Colour</label>
+              <input
+                type="text"
+                class="form-control"
+                id="color"
+                placeholder="Enter cow's color"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="color">Category</label>
+              <input
+                type="text"
+                class="form-control"
+                id="category"
+                placeholder="Enter cow's color"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="breed">Breed</label>
+              <input
+                type="text"
+                class="form-control"
+                id="breed"
+                placeholder="Enter cow's breed"
+                required
+              />
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Register</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer d-flex justify-content-center align-items-center">
+      <footer class="container">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-start align-items-center">
+            <div>
+              <p class="brandName display-1 fw-bold text-white">SFarms</p>
+              <p class="fs-4">Contact1: 01782066094</p>
+              <p class="fs-4">Email: rahman15-5597@diu.edu.bd</p>
+              <p class="fs-4">Address: Uttara, Dhaka-1230 </p>
+            </div>
+          </div>
+
+          <div class="col-6 p-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17353.874532311216!2d90.38695546814927!3d23.882429150133888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43beaf22843%3A0xeff4b5503d6c1f67!2sUttara%20House%20Building!5e0!3m2!1sen!2sbd!4v1697871228424!5m2!1sen!2sbd"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/assets/js/cowRegister.js"></script>
+  </body>
+</html>
